@@ -5,7 +5,7 @@ abstract class Soldier {
      static String name;
      String rank;
      int serialNum;
-     String specialyt;
+     String specialty;
 
     void sleep(){
         System.out.println("Snore....");
