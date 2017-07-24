@@ -15,5 +15,9 @@ public class MarineGrunt extends Soldier implements HandtoHand {
         return "Judo Chop";
 
     }
+    @Override
+    public void Wound(){
+        System.out.println("Its just a flesh wound");
+    }
 
 }

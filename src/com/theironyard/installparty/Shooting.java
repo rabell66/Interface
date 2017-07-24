@@ -4,4 +4,6 @@ public interface Shooting {
 
  String gunFire();
 
+
+ String Bomb();
 }

@@ -6,7 +6,10 @@ public class ArmyRanger extends Soldier implements Shooting,HandtoHand{
 
 
     }
-
+    @Override
+     public void Wound(){
+        System.out.println("Get to cover!");;
+    };
 
     @Override
     void speak() {
@@ -21,5 +24,14 @@ public class ArmyRanger extends Soldier implements Shooting,HandtoHand{
     @Override
     public String attack() {
         return "Blam!!";
+    }
+    @Override
+    public String Bomb(){
+
+        return "Aaarrrggghhhhh..why?";
+    }
+    @Override
+    public String toString(){
+        return Bomb();
     }
 }

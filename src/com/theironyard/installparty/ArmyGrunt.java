@@ -16,5 +16,16 @@ public class ArmyGrunt extends Soldier implements Shooting {
     @Override
     public String gunFire() {
         return "Bang Bang!!";
+
     }
+    @Override
+    public String Bomb(){
+
+        return "Aaarrrggghhhhh..why?";
+    }
+    @Override
+    public String toString(){
+        return Bomb();
+    }
+
 }
